@@ -1,5 +1,7 @@
 wget https://msraprophetnet.blob.core.windows.net/prophetnet/release_checkpoints/prophetnet_multi.pt
 
+mkdir squad/tokenized
+mkdir squad/processed
 python xprophetnet_tokenize_squad.py
 
 fairseq-preprocess \
