@@ -1,4 +1,4 @@
-DATA_DIR=./finetune_data/QG_processed_en
+DATA_DIR=./squad/processed
 USER_DIR=./prophetnet
 ARCH=ngram_transformer_prophet_large
 CRITERION=ngram_language_loss
