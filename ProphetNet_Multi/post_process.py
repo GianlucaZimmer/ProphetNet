@@ -8,7 +8,7 @@ f_in = sys.argv[1]
 f_out = sys.argv[2]
 
 sp = spm.SentencePieceProcessor()
-sp.Load("xlmr_dictionary/sentencepiece.bpe.model")
+sp.Load("prophetnet_multi_dict/sentencepiece.bpe.model")
 
 fin = open(f_in, 'r', encoding='utf-8')
 fout = open(f_out, 'w', encoding='utf-8')
