@@ -1,9 +1,9 @@
-DATA_DIR=./squad/processed
+DATA_DIR=./squad/processed_de
 USER_DIR=./prophetnet
 ARCH=ngram_transformer_prophet_large
 CRITERION=ngram_language_loss
-SAVE_DIR=./models/xprophetnet_qg_en
-TENSORBOARD_LOGDIR=./models/logs_xprophetnet_qg_en
+SAVE_DIR=./models/xprophetnet_qg_de
+TENSORBOARD_LOGDIR=./models/logs_xprophetnet_qg_de
 PRETRAINED_MODEL=prophetnet_multi.pt
 
 fairseq-train \
